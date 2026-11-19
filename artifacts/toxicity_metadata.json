@@ -1,0 +1,17 @@
+{
+  "dataset": "Juchen/league-toxicity-chat",
+  "input_field": "message",
+  "positive_label": 1,
+  "positive_category": "toxique",
+  "negative_category": "non toxique",
+  "threshold": 0.670079,
+  "selected_model": "LogReg mots + caractères",
+  "validation_metrics_at_0_5": {
+    "PR-AUC": 0.723078,
+    "ROC-AUC": 0.928113,
+    "F1 toxique": 0.634921,
+    "précision toxique": 0.571429,
+    "rappel toxique": 0.714286,
+    "Brier": 0.061361
+  }
+}
